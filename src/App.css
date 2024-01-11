@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
+ 
 }
 
 header {
@@ -45,6 +46,7 @@ a:hover {
 section {
   margin-top: 50px; /* Adjust for fixed header */
   padding: 20px;
+ 
 }
 
 /* Change background color on scroll */
@@ -59,3 +61,31 @@ section {
     }
   }
 }
+
+.sidebar {
+width: 20%;
+height: 555px;
+background-color: black;
+padding-left: 1%;
+color: white;
+text-decoration: antiquewhite;
+}
+.footer {
+  height:50px;
+  width:80%;
+       position:absolute; 
+      bottom:0;
+      padding-left: 25%;
+      /* background-color: darkgray; */
+      justify-content:center;
+      display: flex;
+  }
+  .content {
+    position:absolute;
+        width:100%;
+        padding-left: 25%;
+    top:40px;
+    bottom:40px;
+        overflow-y:auto;
+    }
+

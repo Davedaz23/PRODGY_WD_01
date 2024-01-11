@@ -26,28 +26,27 @@ const App = () => {
       <header>
         <nav>
           <ul>
-            <li><a href="#section1">Section 1</a></li>
-            <li><a href="#section2">Section 2</a></li>
-            <li><a href="#section3">Section 3</a></li>
-            <li><a href="#section3">Section 4</a></li>
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">Setting</a></li>
+            <li><a href="#section3">Messages</a></li>
+            <li><a href="#section3">Profile</a></li>
           </ul>
         </nav>
       </header>
-
-      <section id="section1">
+<div className='wrapper'>
+      <section className='sidebar' id="sidebar">
         <h2>Section 1 Content</h2>
         {/* Add your content here */}
       </section>
-
-      <section id="section2">
-        <h2>Section 2 Content</h2>
-        {/* Add your content here */}
-      </section>
-
-      <section id="section3">
-        <h2>Section 3 Content</h2>
-        {/* Add your content here */}
-      </section>
+<div className='content'>
+<h1>Content</h1>
+</div>
+    <div className='footer'>
+      <h1>
+        footer
+      </h1>
+      </div>  
+    </div>
     </div>
   );
 };
